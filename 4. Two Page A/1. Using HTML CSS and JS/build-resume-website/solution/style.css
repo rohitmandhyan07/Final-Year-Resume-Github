@@ -56,8 +56,21 @@ h1, h2, h3 {
 #mainLeft {
     border-right: 1px solid lightgray;
 }
-#codechef-icon{
+.addedIcons{
     position: relative;
     left: -2px;
     top: 2px;
+    display: inline-block;
+}
+
+/* @media screen and (max-width: 374px) {
+    .addedIcons{
+        width: 31.34px;
+        height: 31.34px;
+    }
+} */
+@media screen and (min-width: 301px) and (max-width: 373px) {/* for Small sized mobiles (320px etc.)*/
+    .addedIcons{
+        width: 31.34px;
+    }
 }
